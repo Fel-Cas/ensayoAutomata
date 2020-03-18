@@ -221,7 +221,7 @@ public class ArbolSintactico {
                                 x=new NodoDoble(padre1);
                                 z=new NodoDoble(hijo1);
                                 w=new NodoDoble(hijo2);
-                                pad.setLi(x);
+                                pad.setLi(x);// Ya se hace en la línea 193
                                 pad=x;
                                 pad.setLd(z);
                                 pad.setLi(w);
